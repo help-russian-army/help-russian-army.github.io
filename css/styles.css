@@ -7781,6 +7781,12 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
+.text-orange{
+  color: orange !important;
+}
+.text-blue{
+  color: #0031a3 !important;
+}
 
 .text-white {
   --bs-text-opacity: 1;
@@ -11346,7 +11352,6 @@ html {
 .page-section2
 {
   height: 100vh;
-  padding: 6rem 0;
 }
 
 .divider-custom {
@@ -11617,4 +11622,84 @@ html {
 .ico{
   height: 50px;
   width: 50px;
+}
+.qiwi-icon {
+  width: 64px;
+}
+.button-container {
+  width: 200px;
+  height: 70px;
+  transition: .2s;
+}
+.button-container:hover{
+  background: #1A252F;
+}
+.tinkoff
+{
+  color: black;
+}
+.tinkoff:hover{
+  color: white;
+}
+
+
+.display-flex {
+  display: flex;
+}
+.button-container img .alpha-bank-logo, .tinkoff-logo, .qiwi-logo, .urls-logo {
+  width: 48px;
+}
+.alpha-bank-text {
+  font-size: 1rem;
+}
+.alpha-bank-logo {
+  width: 128px;
+}
+.tinkoff-logo {
+  width: 56px;
+}
+.payment-methods-container {
+  transform: translate(0%);
+}
+.content-width-all{
+width:100%;
+}
+.payment-methods-container  a{
+    text-align: center;
+}
+.card-info-container {
+  width: 1300px;
+  transform: translate(0%);
+  background: white;
+  color: black;
+  height: 80px;
+  margin: 2rem;
+  padding: 1rem;
+}
+.info-card{
+  background: #1A252F;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: .5rem;
+  color: silver;
+  transition: .2s;
+  border: 1px solid #1A252F;
+  cursor: pointer;
+  z-index: 5;
+}
+.info-card:hover{
+  color: white;
+}
+.inpcl{
+  z-index: -1;
+  top: 30px;
+  right: 80px;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  transition: .2s;
+  cursor: pointer;
+  border-color: #1A252F;
+  background-color: #1A252F;
 }
