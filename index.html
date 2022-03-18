@@ -71,7 +71,7 @@
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/sl1ava.jpg" alt="..." />
                         </div>
-                        
+
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
@@ -140,91 +140,69 @@
                     <div class="col-lg-4 me-auto"><p class="lead">Наша миссия обратиться ко всем гражданам нашей страны, за помощью для нашей армии, каждый желающий может помочь нашей армии на нашем сайте.</p></div>
                 </div>
                 <!-- About Section Button-->
-                
-
 
             </div>
         </section>
         <!-- Contact Section-->
-        <section class="page-section2" id="contact">
+        <section class="page-section2 display-flex align-items-center" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section2-heading text-center text-uppercase text-secondary mb-0">Сбор средств</h2>
+                <h2 class="page-section2-heading text-center text-uppercase text-secondary mb-0 fs-1">Сбор средств</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
-                    </div>
+                <!--Button for payment-->
+                <h2 class="text-center">Каждая копейка помогает нашим солдатам и увеличивает шансы на нашу победу!</h2>
+                <div class="payment-methods-container col-12 mt-5 mb-5 display-flex align-items-center row justify-content-center">
+                    <a target="_blank" href="https://qiwi.com/payment/form/31873" class="col-lg-3 mb-3 col-sm-12 text-decoration-none ">
+                        <div class="button-container display-flex align-items-center justify-content-center px-2 rounded rounded content-width-all">
+                            <img src="assets/img/portfolio/qiwi.png" alt="hello" class="me-2 qiwi-logo">
+                            <h5 class="mt-2 text-orange">Qiwi</h5>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://www.alfaportal.ru/card2card/ptpl/alfaportal/initial.html" class="col-lg-3 mb-3 col-sm-12 text-decoration-none">
+                        <div class="button-container display-flex align-items-center justify-content-center px-2 rounded rounded content-width-all">
+                            <img src="assets/img/portfolio/alphabank.png" alt="" class="me-2 alpha-bank-logo">
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://www.tinkoff.ru/cardtocard/" class="col-lg-3 mb-3 col-sm-12 text-decoration-none">
+                        <div class="button-container display-flex align-items-center justify-content-center px-2 rounded tinkoff rounded content-width-all">
+                            <img src="assets/img/portfolio/tinkoff.png" alt="" class="me-2 tinkoff-logo">
+                            <h5 class="mt-2">Tinkoff</h5>
+                        </div>
+                    </a>
+                    <a target="_blank" href="https://perevody-deneg.ru/country/RUS/bank/2275/card2card/" class="col-lg-3 mb-3 col-sm-12 text-decoration-none">
+                        <div class="button-container display-flex align-items-center justify-content-center px-2 rounded content-width-all">
+                            <img src="assets/img/portfolio/uralsib.png" alt="" class="me-2 urls-logo">
+                            <h5 class="mt-2 text-blue">Уралсиб Банк</h5>
+                        </div>
+                    </a>
                 </div>
+                <div class="row">
+                <div class="col-12 card-info-container rounded display-flex align-items-center">
+                    <h5 class="text-center mt-2">Чтобы помочь нашей армии дай деньги через любой удобный вам банк или сервис
+                        на карту:  <input class="inpcl" type="text" value="1234123412341234" id="copymi"><button class="info-card" onclick="Copy()">1234 1234 1234 1234</button>
+                    </h5>
+
+                </div>
+              </div>
+
+                </div>
+
             </div>
         </section>
         <!-- Footer-->
-        
+
         <!--<footer class="footer text-center">-->
             <!--<div class="container">-->
                 <!--<div class="row">-->
                     <!-- Footer Location-->
 
                     <!-- Footer Social Icons-->
-                    
+
                     <!--
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
@@ -291,7 +269,7 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/boepripas.jpg" alt="..." />
                                     <button onclick="link()" class="help" type="button" data-bs-dismiss="modal" aria-label="Close">Помочь</button>
                                     <!-- Portfolio Modal - Text-->
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -315,7 +293,7 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/tank.jpg" alt="..." />
                                     <button onclick="link()" class="help" type="button" data-bs-dismiss="modal" aria-label="Close">Помочь</button>
                                     <!-- Portfolio Modal - Text-->
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -339,7 +317,7 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/eattt.jpg" alt="..." />
                                     <button onclick="link()" class="help" type="button" data-bs-dismiss="modal" aria-label="Close">Помочь</button>
                                     <!-- Portfolio Modal - Text-->
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -363,7 +341,7 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/apteka.jpg" alt="..." />
                                     <button onclick="link()" class="help" type="button" data-bs-dismiss="modal" aria-label="Close">Помочь</button>
                                     <!-- Portfolio Modal - Text-->
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -387,7 +365,7 @@
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bespilotnik.jpg" alt="..." />
                                     <button onclick="link()" class="help" type="button" data-bs-dismiss="modal" aria-label="Close">Помочь</button>
                                     <!-- Portfolio Modal - Text-->
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -406,7 +384,18 @@
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <script>
             function link(){
-            location.href = "index.html#contact";
+              location.href = "index.html#contact";
+            }
+
+            function Copy() {
+              /* Get the text field */
+              var copyText = document.getElementById("copymi");
+
+              /* Select the text field */
+              copyText.select();
+
+              /* Copy the text inside the text field */
+              document.execCommand("copy");
             }
         </script>
     </body>
